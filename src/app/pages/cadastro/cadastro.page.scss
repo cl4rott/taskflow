@@ -7,9 +7,8 @@
 }
 
 .container {
-  width: 90%;
-  max-width: 350px;
-  height: 85vh;
+  width: 100%;
+  height: 100vh;
 
   background: linear-gradient(180deg, #b57cff, #5b3cc4);
   border-radius: 30px;
@@ -52,4 +51,9 @@ ion-item {
   color: #e0d4ff;
   font-size: 12px;
   margin-top: 10px;
+}
+
+ion-input {
+  padding: 8px;
+  --color: black;
 }
