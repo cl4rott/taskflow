@@ -1,0 +1,59 @@
+.login-page {
+  --background: #1c1c1c; // fundo escuro fora do card
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 350px;
+  height: 80vh;
+
+  background: linear-gradient(180deg, #b57cff, #5b3cc4);
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+ion-item {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  --background: #ffffff;
+}
+
+ion-input {
+  padding: 8px;
+}
+
+.btn-login {
+  width: 100%;
+  margin-top: 10px;
+  --background: #5a0dad;
+  --border-radius: 10px;
+}
+
+.link {
+  color: #e0d4ff;
+  font-size: 12px;
+  margin-top: 10px;
+}
