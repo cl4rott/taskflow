@@ -1,1 +1,93 @@
+<ion-content class="home-page">
 
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo">
+      <ion-icon name="checkbox-outline"></ion-icon>
+      <span>TaskFlow</span>
+    </div>
+
+    <div class="user-info">
+      <span>Usuario</span>
+      <span class="logout">Sair</span>
+    </div>
+  </div>
+
+  <!-- CARD TAREFAS -->
+  <div class="card">
+    <h2>Minhas Tarefas</h2>
+    <p>Organize seu dia com eficiência</p>
+
+    <div class="stats">
+      <div class="stat total">
+        <h3>1</h3>
+        <span>TOTAL</span>
+      </div>
+
+      <div class="stat ativas">
+        <h3>1</h3>
+        <span>ATIVAS</span>
+      </div>
+
+      <div class="stat concluidas">
+        <h3>0</h3>
+        <span>CONCLUÍDAS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FILTROS -->
+  <div class="card">
+    <h3>Filtros</h3>
+
+    <label>Status</label>
+    <div class="buttons">
+      <button class="active">Todas</button>
+      <button>Ativas</button>
+      <button>Concluídas</button>
+    </div>
+
+    <label>Categoria</label>
+    <select>
+      <option>Todas as categorias</option>
+    </select>
+  </div>
+
+  <!-- TAREFA -->
+  <div class="task-card">
+    <div class="task-header">
+      <input type="checkbox">
+      <span>Revisar documentação do projeto</span>
+
+      <div class="icons">
+        <ion-icon name="create-outline"></ion-icon>
+        <ion-icon name="trash-outline"></ion-icon>
+      </div>
+    </div>
+
+    <p>Verificar se todos os itens estão atualizados</p>
+
+    <div class="tags">
+      <span class="tag">Trabalho</span>
+      <span class="tag danger">Alta</span>
+      <span class="tag">20/03/2026</span>
+      <span class="tag purple">16:30</span>
+    </div>
+  </div>
+
+</ion-content>
+
+<!-- FOOTER -->
+<ion-footer>
+  <div class="footer">
+    <ion-icon name="person-outline"></ion-icon>
+    <ion-icon name="home"></ion-icon>
+
+    <div class="add">
+      <ion-icon name="add"></ion-icon>
+    </div>
+
+    <ion-icon name="settings-outline"></ion-icon>
+    <ion-icon name="log-out-outline"></ion-icon>
+  </div>
+</ion-footer>

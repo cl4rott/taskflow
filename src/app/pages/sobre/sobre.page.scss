@@ -1,0 +1,138 @@
+.sobre-page {
+  --background: #dcdceb;
+  padding: 16px;
+}
+
+/* HEADER */
+.header {
+  background: #f7f7fb;
+  border-radius: 20px;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+
+  ion-icon {
+    color: #7c4dff;
+    font-size: 22px;
+  }
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  color: #5e35b1;
+  margin: 20px 0;
+}
+
+/* CARDS */
+.card {
+  background: #f7f7fb;
+  border-radius: 18px;
+  padding: 16px;
+  margin-bottom: 16px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* MEMBROS */
+.member {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: black;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.roxo { background: #7c4dff; }
+.azul { background: #42a5f5; }
+.verde { background: #26a69a; }
+
+.icons {
+  display: flex;
+  gap: 8px;
+}
+
+/* SUPORTE */
+.support {
+  margin-top: 20px;
+}
+
+.support-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.primary {
+  flex: 1;
+  background: linear-gradient(90deg, #7c4dff, #5e35b1);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.outline {
+  flex: 1;
+  background: transparent;
+  border: 2px solid #7c4dff;
+  color: #5e35b1;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* FOOTER */
+.footer {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+}
+
+.add {
+  background: linear-gradient(180deg, #9c6bff, #7c4dff);
+  padding: 14px;
+  border-radius: 50%;
+  color: white;
+  margin-top: -25px;
+
+  box-shadow: 0 6px 12px rgba(124, 77, 255, 0.4);
+}
+
+
+/*cor das coisas escritas dentro dos cards*/
+.card p {
+  color:black;
+}
