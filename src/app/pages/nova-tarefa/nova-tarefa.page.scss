@@ -1,0 +1,49 @@
+.content {
+  --background: #eceaf5;
+}
+
+.toolbar {
+  --background: #9b6df3;
+  --color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.input {
+  --background: #ffffff;
+  border-radius: 12px;
+  margin-top: 18px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.small {
+  flex: 1;
+}
+
+ion-item {
+  --border-color: transparent;
+}
+
+.save-btn {
+  margin-top: 40px;
+
+  --background: linear-gradient(
+    90deg,
+    #b07cff,
+    #6d4bdb
+  );
+
+  --border-radius: 14px;
+
+  height: 48px;
+
+  font-weight: bold;
+}

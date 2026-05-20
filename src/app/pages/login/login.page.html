@@ -12,12 +12,12 @@
       <ion-input type="password" placeholder="Senha"></ion-input>
     </ion-item>
 
-    <ion-button href="/home" expand="block" class="btn-login">
+    <ion-button [routerLink]="['/home']" expand="block" class="btn-login">
       Entrar
     </ion-button>
 
     <p class="link">Ainda não possui conta?</p>
-    <a class="link" href="/cadastro">Criar conta</a>
+    <a class="link" routerLink="/cadastro">Criar conta</a>
 
   </div>
 </ion-content>

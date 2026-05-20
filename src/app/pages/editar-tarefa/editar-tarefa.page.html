@@ -1,0 +1,115 @@
+<ion-header>
+
+  <ion-toolbar color="primary">
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>
+      Editando Tarefa
+    </ion-title>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-item>
+
+    <ion-input
+      label="Título da tarefa"
+      labelPlacement="stacked"
+      placeholder="Ex: Estudar Ionic">
+    </ion-input>
+
+  </ion-item>
+
+  <div class="linha">
+
+    <ion-item class="metade">
+
+      <ion-input
+        label="Data"
+        labelPlacement="stacked"
+        placeholder="dd/mm">
+      </ion-input>
+
+    </ion-item>
+
+    <ion-item class="metade">
+
+      <ion-input
+        label="Hora"
+        labelPlacement="stacked"
+        placeholder="hh:mm">
+      </ion-input>
+
+    </ion-item>
+
+  </div>
+
+  <ion-item>
+
+    <ion-textarea
+      label="Descrição (Opcional)"
+      labelPlacement="stacked"
+      placeholder="Ex: Revisar conteúdo">
+    </ion-textarea>
+
+  </ion-item>
+
+  <div class="linha">
+
+    <ion-item class="metade">
+
+      <ion-select
+        label="Categoria"
+        labelPlacement="stacked">
+
+        <ion-select-option value="trabalho">
+          Trabalho
+        </ion-select-option>
+
+        <ion-select-option value="estudo">
+          Estudo
+        </ion-select-option>
+
+      </ion-select>
+
+    </ion-item>
+
+    <ion-item class="metade">
+
+      <ion-select
+        label="Prioridade"
+        labelPlacement="stacked">
+
+        <ion-select-option value="alta">
+          Alta
+        </ion-select-option>
+
+        <ion-select-option value="media">
+          Média
+        </ion-select-option>
+
+        <ion-select-option value="baixa">
+          Baixa
+        </ion-select-option>
+
+      </ion-select>
+
+    </ion-item>
+
+  </div>
+
+  <ion-button
+    expand="block"
+    class="botao">
+
+    Salvar
+
+  </ion-button>
+
+</ion-content>

@@ -1,0 +1,40 @@
+ion-content {
+  --background: #eceaf4;
+}
+
+ion-toolbar {
+  --background: #9d71f7;
+}
+
+ion-item {
+  margin-top: 15px;
+
+  --background: white;
+
+  border-radius: 12px;
+}
+
+.linha {
+  display: flex;
+
+  gap: 10px;
+}
+
+.metade {
+  width: 50%;
+}
+
+.botao {
+
+  margin-top: 40px;
+
+  --background: linear-gradient(
+    to right,
+    #b47cff,
+    #6a4ee9
+  );
+
+  height: 45px;
+
+  font-weight: bold;
+}

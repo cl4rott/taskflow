@@ -1,8 +1,4 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>inicio</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
   <div class="inicio-container">
@@ -12,11 +8,11 @@
 
       <img src="../../../assets/icon/logo.png" alt="Logo Taskflow" />
 
-      <ion-button href="/login" expand="block" class="botao-inicio">
+      <ion-button routerLink="/login" expand="block" class="botao-inicio">
           Login
       </ion-button>
 
-      <ion-button href="/cadastro" expand="block" fill="outline" class="botao-inicio">
+      <ion-button routerLink="/cadastro" expand="block" fill="outline" class="botao-inicio">
           Cadastrar
       </ion-button>
     </div>
